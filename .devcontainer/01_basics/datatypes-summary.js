@@ -44,3 +44,29 @@ console.log(typeof outsidetemp) // object
 
 console.table([heros,myfunction,score,scorevalue,outsidetemp]);
 
+// +++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive),Heap(Non- Primitive)   //(types of memory)
+
+let myname="hridya"
+let anothername= "hirdu";
+anothername="chaiaurcode";
+
+console.log(anothername);
+console.log(myname);
+
+let userone={
+    email :"hridyavema3@gmail.com",
+    upi: "user@ybl" 
+} 
+
+let usertwo= userone
+
+usertwo.email="hridyaverma@google.com"
+
+console.log(userone.email)
+console.log(usertwo.email)  
+// both will be same as email in userone 
+//also gets changed when we changed the value of email in usertwo
+// becuase both are getting referance from same heap 
+
