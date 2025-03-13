@@ -1,0 +1,20 @@
+to declare a const variable there is only one way
+const once declare with a value then it cannot be changed 
+
+2)other ways of declaring a variable is by using 
+ - let 
+ - var
+
+note- 
+we do not use var as there was a  problem in javascript that 
+javascript does not konw scope 
+var does not follow var as , all the same variables get changes out of scope 
+
+
+note- we can also occupy space for a variable without writing a datatype
+
+
+";" this is not necassary
+
+
+undefined- when we do not assign any value to variable 
